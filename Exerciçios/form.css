@@ -1,0 +1,11 @@
+body{
+    background-color: rgba(133, 20, 238, 0.39);
+    text-align:  left justify;
+    
+    
+}
+input{
+    border-radius: 3px;
+    cursor: pointer;
+   text-align: justify;
+}
