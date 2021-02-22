@@ -1,0 +1,82 @@
+*{  
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  } 
+  :root{
+       --color-primary: darkorange;
+       --color-secudary: #fff;
+       --color-tercery: #000;
+  } 
+
+  header{
+    width: 100%;
+    height: 100vh;
+    overflow:hidden;
+    position: relative;
+      
+    }
+  html{
+    font-size: 93.75%; /* 15px */
+  
+}
+
+/* titles e links-------*/
+.link{
+
+}
+
+  /*container----------*/
+  .container{
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+    position: relative;
+    
+ }
+ 
+ #home{
+   max-width: 1800px;
+   min-width: 500px;
+   background-color: var(--color-scudary);
+   
+  } 
+
+  .home-incones ul{
+   padding: 0;
+   background-color: var(--color-secudary);
+   display: flex;
+  text-align: center;
+  }
+  
+  
+  .home-incones li a{
+    padding: 4rem  2rem;
+    font-size: 1.5rem;
+    display: flex;
+    color: var(--color-tercery);
+    
+  }
+  
+  .home-logo{
+    color: var(--color-primary);
+    
+    padding: 3.5rem 2rem;
+    padding-left: 6rem;
+    font-size: 2.5rem;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+ .home-img img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    opacity: 0.6;
+    display: inline;
+ }
+ 
+
+
+ 

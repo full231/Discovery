@@ -85,6 +85,11 @@ header{
     color: #969cb3;
 }
 
+table thead tr th:first-child,
+table tbody tr td:first-child
+{
+    border-radius: 0.25rem 0 0 0.25rem;
+}
 table thead th {
     background: white;
    
@@ -92,7 +97,7 @@ table thead th {
     font-weight: normal;
     padding: 1rem 2rem;
     color: #969cb3;
-   text-align: left;
+    text-align: left;
 }
 
 table tbody tr{
@@ -118,7 +123,15 @@ td.income{
 td.expense{
     color: #e92929;
 }
-table thead tr th:first-child,
-table tbody tr td:first-child{
-    border-radius: 0.25rem 0 0 0.25rem;
+
+/* footer -----------*/
+footer{
+    text-align: center;
+    margin: 14rem 0 0 21rem;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    color: var(--dark-blue);
+    position: absolute;
+
+    opacity: 0.6;
 }
