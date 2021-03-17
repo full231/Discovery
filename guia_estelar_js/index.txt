@@ -1,0 +1,21 @@
+Boleano = somente 2 valores
+true / verdadeiro
+false / falso
+
+undefined / indefinido
+
+null / nulo
+objeto que não possui nada dentro
+diferente do indefinido
+
+object / objeto
+propriedade / atributos
+funcionalidade / métodos
+
+{ propriedade: "valor" }
+
+Variaveis
+
+Nomes simbolicos para receber algum valor 
+atalhos de código
+identificadores
